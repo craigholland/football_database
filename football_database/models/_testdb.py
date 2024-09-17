@@ -1,5 +1,5 @@
 # from sqlalchemy import Column, Text, Boolean, DateTime, Integer, Numeric
-# from solidpy_database.database import db, ServiceObject
+# from football_database.database import db, ServiceObject
 #
 #
 # class TestDB(ServiceObject, db.Model):

@@ -5,9 +5,9 @@
 
 
 [tool.poetry]
-name = "solidpy_database"
-version = "0.0.1"
-description = "Base Template for SolidPy.Database"
+name = "football_database"
+version = "0.1.0"
+description = "Base Template for Football.Database"
 authors = ["Craig Holland <craig_holland@hotmail.com>"]
 readme = "README.md"
 
@@ -49,10 +49,10 @@ psycopg2-binary = "^2.9.9"
 sqlalchemy-utils = "^0.41.2"
 sqla-wrapper = "^6.0.0"
 alembic-utils = "^0.8.3"
-
-[tool.poetry.dependencies.solidpy-domain]
-version = "0.0.1"
-source = "pypi-gcp"
+#
+#[tool.poetry.dependencies.solidpy-domain]
+#version = "0.0.1"
+#source = "pypi-gcp"
 
 [tool.poetry.plugins.dotenv]
 ignore = "false"

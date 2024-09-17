@@ -1,5 +1,5 @@
 import logging
-from solidpy_database.database.database import db
+from football_database.database.database import db
 
 
 def cleanup_db_session():

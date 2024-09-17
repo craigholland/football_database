@@ -6,8 +6,8 @@ from logging.config import fileConfig
 
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
-from solidpy_database.database.database import db, config as db_config
-from solidpy_database.models import *   # noqa
+from football_database.database.database import db, config as db_config
+from football_database.models import *   # noqa
 from alembic import context
 from alembic_utils.pg_extension import PGExtension
 from alembic_utils.replaceable_entity import register_entities

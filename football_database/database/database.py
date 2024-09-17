@@ -1,5 +1,5 @@
 from sqlalchemy.ext.declarative import declarative_base
-from solidpy_database.database.db_config import config
+from football_database.database.db_config import config
 from sqlalchemy import create_engine, text
 from sqla_wrapper import SQLAlchemy
 
